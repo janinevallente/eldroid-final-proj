@@ -1,0 +1,77 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/gray"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageViewBookmark"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:src="@drawable/ic_bookmark_filled"
+            android:layout_gravity="end"/>
+
+        <TextView
+            android:id="@+id/jobPositionView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-30dp"
+            android:text="@string/job_position"
+            android:textSize="25sp"
+            android:textColor="@color/indigo"
+            android:fontFamily="@font/dm_sans_bold" />
+
+        <TextView
+            android:id="@+id/companyView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/company"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/dm_sans" />
+
+        <TextView
+            android:id="@+id/locationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/location"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/dm_sans" />
+
+        <TextView
+            android:id="@+id/jobContentView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/job_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/dm_sans"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/salaryView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="230dp"
+            android:text="@string/salary"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/dm_sans_bold"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

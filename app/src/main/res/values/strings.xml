@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">JobSeeker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_open">Open Navigation Drawer</string>
+    <string name="nav_close">Close Navigation Drawer</string>
+    <string name="home_main_text">EMPOWERING SINGLE PARENTS IN THEIR JOB SEARCH JOURNEY</string>
+    <string name="home_sub_text">START JOB SEEKING NOW!</string>
+    <string name="about_us">About Us</string>
+    <string name="developed_by_students_from_the_university_of_cebu_banilad_job_seeker_is_a_gateway_to_empowerment_for_single_parents_our_application_revolutionizes_the_job_finding_experience_offering_a_user_friendly_platform_that_simplifies_the_search_process_and_opens_doors_to_countless_opportunities_ensuring_a_brighter_future_for_single_parents">Developed by students from the University of Cebu - Banilad, Job Seeker is a gateway to empowerment for single parents! Our application revolutionizes the job-finding experience, offering a user-friendly platform that simplifies the search process and opens doors to countless opportunities, ensuring a brighter future for single parents.</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="team_chillingbing">Team Chillingbing</string>
+    <string name="banilad_cebu_city_cebu">Banilad, Cebu City, Cebu</string>
+    <string name="email_jobseeker_gmail_com">Email: jobseeker@gmail.com</string>
+    <string name="number_0991_234_5678_032_321_9735">Number: 0991 234 5678 || (032)321-9735</string>
+    <string name="your_jobs">Your Jobs</string>
+    <string name="bookmarked_jobs">Bookmarked Jobs</string>
+    <string name="others">Others</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+    <string name="jobs">Jobs</string>
+    <string name="create_discussion">Create Discussion</string>
+    <string name="discussions">Discussions</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="discussion_title">Discussion Title</string>
+    <string name="contents_of_your_discussion">Contents of your discussion</string>
+    <string name="post_discussion">Post Discussion</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="full_name">Full Name</string>
+    <string name="forgot_password">FORGOT PASSWORD</string>
+    <string name="email_address">Email Address</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="back_to_login">BACK TO LOGIN</string>
+    <string name="login">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="forgot_password_small">Forgot Password?</string>
+    <string name="you_don_t_have_an_account_yet">You don\'t have an account yet?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="job_position">Job Position</string>
+    <string name="company">Company</string>
+    <string name="location">Location</string>
+    <string name="job_content">Job Content</string>
+    <string name="salary">Salary</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+</resources>

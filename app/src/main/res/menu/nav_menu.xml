@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <item android:title="@string/your_jobs">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_bookmarked"
+                    android:title="@string/bookmarked_jobs"
+                    android:icon="@drawable/bookmarks_icon"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/others">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="@string/logout"/>
+            </group>
+        </menu>
+    </item>
+</menu>

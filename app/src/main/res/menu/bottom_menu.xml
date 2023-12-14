@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/home"
+        android:id="@+id/home_fragment"
+        android:icon="@drawable/home_icon"/>
+    <item
+        android:title="@string/jobs"
+        android:id="@+id/jobs_fragment"
+        android:icon="@drawable/job_icon"/>
+    <item
+        android:title="@string/create_discussion"
+        android:id="@+id/add_fragment"
+        android:icon="@drawable/add_icon"/>
+    <item
+        android:title="@string/discussions"
+        android:id="@+id/discussions_fragment"
+        android:icon="@drawable/discussions_icon"/>
+    <item
+        android:title="@string/about_us"
+        android:id="@+id/about_us_fragment"
+        android:icon="@drawable/about_us_icon"/>
+
+</menu>

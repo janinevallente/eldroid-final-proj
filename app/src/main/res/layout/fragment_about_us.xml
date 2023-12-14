@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AboutUsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/about_us"
+            android:textSize="25sp"
+            android:textColor="@color/indigo"
+            android:fontFamily="@font/dm_sans_bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/developed_by_students_from_the_university_of_cebu_banilad_job_seeker_is_a_gateway_to_empowerment_for_single_parents_our_application_revolutionizes_the_job_finding_experience_offering_a_user_friendly_platform_that_simplifies_the_search_process_and_opens_doors_to_countless_opportunities_ensuring_a_brighter_future_for_single_parents"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/dm_sans" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/contact_us"
+            android:textSize="25sp"
+            android:textColor="@color/indigo"
+            android:fontFamily="@font/dm_sans_bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:text="@string/team_chillingbing"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/dm_sans_bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:text="@string/banilad_cebu_city_cebu"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/dm_sans_bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:paddingStart="20dp"
+            android:text="@string/email_jobseeker_gmail_com"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/dm_sans" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:text="@string/number_0991_234_5678_032_321_9735"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/dm_sans" />
+
+    </LinearLayout>
+
+</FrameLayout>

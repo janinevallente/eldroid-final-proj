@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AddDiscussionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/create_discussion"
+            android:textSize="25sp"
+            android:textColor="@color/indigo"
+            android:fontFamily="@font/dm_sans_bold" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="16dp"
+            android:gravity="top|start"
+            android:hint="@string/name"
+            android:textColorHint="@color/dark_gray"
+            android:singleLine="true"
+            android:scrollbars="vertical"
+            android:background="@drawable/rounded_edit_text_bg"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="16dp"
+            android:gravity="top|start"
+            android:hint="@string/email"
+            android:textColorHint="@color/dark_gray"
+            android:singleLine="true"
+            android:scrollbars="vertical"
+            android:background="@drawable/rounded_edit_text_bg"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/discussionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="16dp"
+            android:gravity="top|start"
+            android:hint="@string/discussion_title"
+            android:textColorHint="@color/dark_gray"
+            android:singleLine="true"
+            android:scrollbars="vertical"
+            android:background="@drawable/rounded_edit_text_bg"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/discussionContent"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_margin="16dp"
+            android:gravity="top|start"
+            android:hint="@string/contents_of_your_discussion"
+            android:textColorHint="@color/dark_gray"
+            android:inputType="textMultiLine"
+            android:scrollbars="vertical"
+            android:background="@drawable/rounded_edit_text_bg"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/postButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/orange"
+            android:text="@string/post_discussion"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:fontFamily="@font/dm_sans"/>
+    </LinearLayout>
+
+</FrameLayout>
